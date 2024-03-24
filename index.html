@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <script src="./index.js" defer></script>
+    <link rel="icon" href="./pics/software-engineer.png">
+</head>
+<body>
+    <div class="container">
+
+        <div class="nav">
+            <div class="logo-content">
+            <img src="./pics/software-engineer.png" alt="" height="50px">
+            <h2 class="dashboard">Dashboard</h2>
+        </div>
+            <ul>
+                <li class="item1">Home</li>
+                <li class="item2">Profile</li>
+                <li class="item3">Messages</li>
+                <li class="item4">History</li>
+                <li class="item5">Tasks</li>
+                <li class="item6">Communitites</li>
+
+                <div class="li-end">
+                    <li class="item7">Settings</li>
+                    <li class="item8">Support</li>
+                    <li class="item9">Privacy</li>
+                </div>
+            </ul>
+        </div>
+        <div class="header">
+
+            <!-- <div class="first-row"> -->
+                <div class="search-field">
+                    <img src="./pics/search-interface-symbol.png" alt="search-icon" class="search-icon">
+                    <input type="text" class="search-box">
+                </div>
+                <div class="profile-info">
+                    <img src="./pics/notification.png" alt="bill-icon" class="bill-icon">
+                    <div class="profile-pic"></div>
+                    <h3>Mussesibi Shbelman</h3>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="second-row"> -->
+                <div class="profile-info-greeting">
+                    <div class="profile-pic big"></div>
+                    <div class="greeting-msg">
+                        <h5 class="greet">Hi there,</h5>
+                        <h3 class="profile-name">Mussesibi Shbelman(@Mussesibi)</h3>
+                    </div>
+                </div>
+                <div class="buttons"><button class="new-btn" onclick="tasketeh()">New</button><button class="upload-btn">Upload</button><button class="share-btn">Share</button></div>
+            <!-- </div> -->
+        </div>
+        <div class="dashboard-body">
+            
+            <div class="project-container">
+                <h2>Your Projects</h2>
+                <div class="projects">
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at ab odio ut rem minus?</p>
+                        <img src="./pics/star.png" width="25px" alt="" class="fav-icon"><img src="./pics/visible.png"  width="25px" class="livepreview-icon"><img src="./pics/logo.png" width="25px" alt="" class="share-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="announcments-container">
+            <h2>Announcments</h2>
+
+                <div class="announcments-bg">
+                    <div class="announcement">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia fugiat temporibus consectetur.</p>
+                                </div>
+                    <div class="announcement">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia fugiat temporibus consectetur.</p>
+                                </div>
+                    <div class="announcement">
+                    <h4>Site Maintenance</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia fugiat temporibus consectetur.</p>
+                                </div>
+                </div>
+            </div>
+            <div class="trending">
+                
+                <h2>Trending</h2>
+                <div class="trending-bg">
+                    
+                    <div class="trend">
+                        <div class="logo"></div>
+                        <div class="col">
+                            <p>@Moligan</p>
+                            <p class="gray-clr">Suprecali</p>
+                        </div>
+                    </div>
+                    <div class="trend">
+                        <div class="logo"></div>
+                        <div class="col">
+                            <p>@Moligan</p>
+                            <p class="gray-clr">Suprecali</p>
+                        </div>
+                    </div>
+                    <div class="trend">
+                        <div class="logo"></div>
+                        <div class="col">
+                            <p>@Moligan</p>
+                            <p class="gray-clr">Suprecali</p>
+                        </div>
+                    </div>
+                    <div class="trend">
+                        <div class="logo"></div>
+                        <div class="col">
+                            <p>@Moligan</p>
+                            <p class="gray-clr">Suprecali</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="tasketekoray">
+        <h1 class="exit">x</h1>
+        <h1>I Just couldn't...</h1>
+        <p>I tried my best  and tried and tried to make the layout perfect however I still couldn't, maybe I approcehd this project in a wrong way. I don't actually know however
+            I don't want to spend anymore time on this project so I don't lose my motive... I'll keep proceeding with my tears running through my beard and one day
+            I'll either come and finish this in a better way or create the best dashboard I've ever made.
+        </p>
+        <br>
+        <br>
+        <br>
+        <p>Never feel bad my friends if you couldn't I also couldn't but I'll proceed.</p>
+    </div>
+</body>
+</html>
